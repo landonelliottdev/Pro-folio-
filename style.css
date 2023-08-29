@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG_6290.jpeg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+min-height: 100px;
+}
+
+ul{
+float: right;
+list-style-type: none;
+margin-top: 30px;
+min-height: 400px;
+margin-right: 40px;
+font-size: 16px;
+
+}
+
+ul li{
+
+    display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.5 ease;
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+
+}
+
+.logo img{
+
+float: left;
+width: 120px;
+height: auto;
+background-size: cover;
+    background-position: center;
+    border-radius: 50%; 
+    padding: 10px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+.title h1{
+color: #fff;
+font-size: 80px;
+
+}
+
+.button{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0,5 ease;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.btn:hover{
+background-color: #fff;
+color: #000;
+
+
+}
+
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+
+
+
+.sub-menu ul{
+position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+
+    display: block;
+    position: absolute;
+    background-color: rgb(0,45,117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+
+
+
+/* UNDER THIS IS THE CODE FOR SIGN IN*/ 
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff3939;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 11%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd1d1;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    text-align: center;
+    color: red;
+}
+
+
+
+
+
+.other{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG_6290.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    color: white;
+}
+
+
+
+.schooling{
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+font-size: 30px;
+    
+}
+
+
+.attended{
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.about{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+font-size: 25px;
+}
